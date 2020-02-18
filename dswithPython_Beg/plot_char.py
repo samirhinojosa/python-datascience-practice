@@ -8,10 +8,10 @@ plt.plot(years, gdp, color="green", marker="o", linestyle="solid")
 
 #add a lable to the y-axis
 plt.ylabel("Bilions of $")
+plt.xlabel("Decades")
+plt.title("Raise of money")
 
-plt.savefig("dswithPython_Beg/new", dpi=None, facecolor='w', edgecolor='w',
+plt.savefig("images/plot_char", dpi=None, facecolor='w', edgecolor='w',
         orientation='portrait', papertype=None, format=None,
         transparent=False, bbox_inches=None, pad_inches=0.1,
         frameon=None, metadata=None)
-
-
